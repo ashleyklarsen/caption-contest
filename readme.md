@@ -10,7 +10,7 @@ This app was initialized with express-generator.
 - PostgreSQL Server
 - Sequelize
 
-## Running the app locally
+## Running the app locally (Assumes Postgres15)
 Install project dependencies using `npm install`
 
 Before you can run the project locally, you will need to setup the database:
@@ -25,6 +25,7 @@ psql postgres -U root
 
 postgres=> CREATE DATABASE node_sequelize;
 postgres=> GRANT ALL PRIVILEGES ON DATABASE node_sequelize TO root;
+postgres=> GRANT ALL ON SCHEMA public TO root;
 postgres=> \q
 ```
 
