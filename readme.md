@@ -48,7 +48,8 @@ Once the app is running locally, you can access the API at `http://localhost:300
 Swagger documentation and testing available at `http://localhost:3000/docs`
 
 To test with Swagger:
- - Add photos using `GET /photos`
+ - Get photos using `GET /photos`
+ - Add photos using `POST /photos`
  - Create a user using `POST /users`
  - Login as new user using `POST /users/login`
  - Authorize Swagger requests
