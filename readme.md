@@ -9,10 +9,8 @@ This app was initialized with express-generator.
 - NodeJS/Express.js
 - PostgreSQL Server
 - Sequelize
-
-## Running the app locally (Assumes Postgres15)
-Install project dependencies using `npm install`
-
+  
+## Configuring the Database (Assumes Postgres15)
 Before you can run the project locally, you will need to setup the database:
 ```
 psql postgres --u postgres
@@ -28,6 +26,17 @@ postgres=> GRANT ALL PRIVILEGES ON DATABASE node_sequelize TO root;
 postgres=> GRANT ALL ON SCHEMA public TO root;
 postgres=> \q
 ```
+## Running the app with Render
+Create a new Render web service.
+
+For the "Build Command", use `npm install && sequelize db:migrate`
+
+For the "Start Command", use `node app.js`
+
+Modify the config.json with this repository to match your Render or manually set-up PostgreSQL instance host.
+
+## Running the app locally
+Install project dependencies using `npm install`
 
 Run the Sequelize migration scripts using `sequelize db:migrate`
 
