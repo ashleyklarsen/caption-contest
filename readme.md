@@ -31,7 +31,7 @@ Create a new Render web service.
 
 For the "Build Command", use `npm install && sequelize db:migrate`
 
-For the "Start Command", use `node app.js`
+For the "Start Command", use `npm start`
 
 Modify the `config/config.json` file within this repository to match your Render or manually set-up PostgreSQL instance host.
 
