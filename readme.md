@@ -40,7 +40,7 @@ Modify the `config/config.json` file within this repository to match your Render
 ## Running the app locally
 Install project dependencies using `npm install`
 
-Run the Sequelize migration scripts using `sequelize db:migrate`
+Run the Sequelize migration scripts using `sequelize db:migrate`. You may also need to run `sequelize db:create` if your databases and tables do not exist yet.
 
 You can then run the project with `DEBUG=myapp:* npm start`
 
