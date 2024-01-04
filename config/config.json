@@ -3,7 +3,7 @@
     "username": "root",
     "password": "p@ssw0rd!",
     "database": "node_sequelize",
-    "host": "127.0.0.1",
+    "host": "dpg-cmbg8uqcn0vc73ddccdg-a",
     "dialect": "postgres",
     "privateKey": "privateKey"
   },
