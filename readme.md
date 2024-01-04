@@ -10,7 +10,7 @@ This app was initialized with express-generator.
 - PostgreSQL Server
 - Sequelize
   
-## Configuring the Database (Assumes Postgres15)
+## Configuring the Database
 Before you can run the project locally, you will need to setup the database:
 ```
 psql postgres --u postgres
@@ -23,7 +23,9 @@ psql postgres -U root
 
 postgres=> CREATE DATABASE node_sequelize;
 postgres=> GRANT ALL PRIVILEGES ON DATABASE node_sequelize TO root;
-postgres=> GRANT ALL ON SCHEMA public TO root;
+
+postgres=> CREATE DATABASE database_production;
+postgres=> GRANT ALL PRIVILEGES ON DATABASE database_production TO root;
 postgres=> \q
 ```
 ## Running the app with Render
