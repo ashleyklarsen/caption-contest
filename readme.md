@@ -33,7 +33,7 @@ For the "Build Command", use `npm install && sequelize db:migrate`
 
 For the "Start Command", use `node app.js`
 
-Modify the config.json with this repository to match your Render or manually set-up PostgreSQL instance host.
+Modify the `config/config.json` file within this repository to match your Render or manually set-up PostgreSQL instance host.
 
 ## Running the app locally
 Install project dependencies using `npm install`
