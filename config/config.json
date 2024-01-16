@@ -1,25 +1,25 @@
 {
   "development": {
-    "username": "root",
-    "password": "p@ssw0rd!",
-    "database": "node_sequelize",
-    "host": "dpg-cmbg8uqcn0vc73ddccdg-a",
+    "username": "activities_user",
+    "password": "Vhj0IGZyPcl0AdHlp6RORUPduQFu2GAU",
+    "database": "activity_database_q7f0",
+    "host": "dpg-cmgoafocmk4c73etluog-a",
     "dialect": "postgres",
     "privateKey": "privateKey"
   },
   "test": {
-    "username": "root",
-    "password": "p@ssw0rd!",
-    "database": "node_sequelize",
-    "host": "dpg-cmbg8uqcn0vc73ddccdg-a",
+    "username": "activities_user",
+    "password": "Vhj0IGZyPcl0AdHlp6RORUPduQFu2GAU",
+    "database": "activity_database_q7f0",
+    "host": "dpg-cmgoafocmk4c73etluog-a",
     "dialect": "postgres",
     "privateKey": "privateKey"
   },
   "production": {
-    "username": "root",
-    "password": "p@ssw0rd!",
-    "database": "database_production",
-    "host": "dpg-cmbg8uqcn0vc73ddccdg-a",
+    "username": "activities_user",
+    "password": "Vhj0IGZyPcl0AdHlp6RORUPduQFu2GAU",
+    "database": "activity_database_q7f0",
+    "host": "dpg-cmgoafocmk4c73etluog-a",
     "dialect": "postgres",
     "privateKey": "privateKey"
   }
